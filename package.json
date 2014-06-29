@@ -148,6 +148,7 @@
     "mocha-jshint": "0.0.7",
     "node-require-timings": "0.0.1",
     "rewire": "^2.0.0",
-    "tmp-sync": "^1.0.1"
+    "tmp-sync": "^1.0.1",
+    "jspm": "0.6.7"
   }
 }

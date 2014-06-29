@@ -26,5 +26,24 @@
     "glob": "^3.2.9",
     "ember-cli-ic-ajax": "0.1.1",
     "ember-cli-ember-data": "0.1.0"
+  },
+  "jspm": {
+    "directories": {
+      "jspmPackages": "vendor"
+    },
+    "configFile": "config/jspm.js",
+    "dependencies": {
+      "handlebars": "handlebars.js@1.3.0",
+      "jquery": "^1.11.0",
+      "qunit": "1.12.0",
+      "ember-qunit": "github:rpflorence/ember-qunit@0.1.5",
+      "ember": "1.5.1",
+      "ember-resolver": "github:stefanpenner/ember-jj-abrams-resolver@0.1.1",
+      "loader": "github:stefanpenner/loader.js@1.0.0",
+      "ember-cli-shims": "github:stefanpenner/ember-cli-shims@0.0.2",
+      "ember-load-initializers": "github:stefanpenner/ember-load-initializers@0.0.2",
+      "ember-qunit-notifications": "github:dockyard/ember-qunit-notifications@^0.0.3",
+      "ember-cli-test-loader": "github:rjackson/ember-cli-test-loader@0.0.2"
+    }
   }
 }
